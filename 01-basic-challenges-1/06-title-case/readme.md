@@ -27,25 +27,6 @@ titleCase('HERE IS MY HANDLE HERE IS MY SPOUT'); // Here Is My Handle Here Is My
 
 - You may assume that each word consists of only letters and spaces
 
-### Hints
-
-## Solutions
-
-<details>
-  <summary>Click For Solution 1</summary>
-
-```php
-function titleCase(str) {
-  const words = str.toLowerCase().split(' ');
-
-  for (let i = 0; i < words.length; i++) {
-    words[i] = words[i][0].toUpperCase() + words[i].slice(1);
-  }
-
-  return words.join(' ');
-}
-```
-
 ### Explanation
 
 - Split the string into an array of words and put them all in lowercase.
@@ -53,15 +34,6 @@ function titleCase(str) {
 - Join the array back into a string and return it.
 
 </details>
-
-<details>
-  <summary>Click For Solution 2</summary>
-
-```js
-function titleCase(str) {
-  return str.replace(/\b\w/g, (match) => match.toUpperCase());
-}
-```
 
 ## Explanation
 

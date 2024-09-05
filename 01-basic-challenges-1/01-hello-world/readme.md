@@ -32,17 +32,6 @@ I will put any constraints here. They will vary depending on the challenge.
 
 - I will put a couple hints here. You can choose to use them or not.
 
-## Solutions
-
-<details>
-  <summary>Click For Solution</summary>
-
-```JS
-function printHelloWorld() {
-  return 'Hello World!';
-}
-```
-
 ### Explanation
 
 I will put the explanation to the solution here. The length and depth of the explanation will vary depending on the challenge.

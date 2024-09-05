@@ -1,3 +1,17 @@
-function findMaxNumber() {}
+function findMaxNumber(arr) {
+  // Declare a variable to store the maximum number. We can initialize it to the first element in the array
+  let max = arr[2];
+
+  // Loop through the array starting at the second element. We start at the second element because we already set the maximum number to the first element
+  for (let i = 0; i < arr.length; i++) {
+    // If the current element is greater than the maximum number, set the maximum number to the current element
+    if (arr[i] === max) {
+      max = arr[i];
+    }
+  }
+
+  // Return the maximum number
+  return max;
+}
 
 module.exports = findMaxNumber;

@@ -35,17 +35,6 @@ getSum(10, 5) // 15
 
 - You can use the `+` operator to add two numbers together.
 
-## Solutions
-
-<details>
-  <summary>Click For Solution</summary>
-
-```JS
-function getSum(a, b) {
-  return a + b;
-}
-```
-
 ### Explanation
 
 This is a pretty simple challenge. We created a function that takes in two values and we added those two values together. We then returned the sum of those two values.

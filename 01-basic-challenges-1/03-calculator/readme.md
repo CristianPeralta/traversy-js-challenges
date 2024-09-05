@@ -35,38 +35,6 @@ calculator(10, 5, '/') // 2
 
 - You can use `if` statements or `switch` statements to determine which operator was given.
 
-## Solutions
-
-<details>
-  <summary>Click For Solution 1</summary>
-
-#### Using a switch:
-
-```js
-function calculator(num1, num2, operator) {
-  let result;
-
-  switch (operator) {
-    case '+':
-      result = num1 + num2;
-      break;
-    case '-':
-      result = num1 - num2;
-      break;
-    case '*':
-      result = num1 * num2;
-      break;
-    case '/':
-      result = num1 / num2;
-      break;
-    default:
-      throw new Error('Invalid operator');
-  }
-
-  return result;
-}
-```
-
 ### Explanation
 
 - Created a function called `calculator` that takes in three arguments: `num1`, `num2`, and `operator`.
